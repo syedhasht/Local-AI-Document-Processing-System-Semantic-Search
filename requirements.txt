@@ -1,0 +1,18 @@
+# Core document processing
+pypdf>=3.0.0
+pandas>=2.0.0
+Pillow>=10.0.0
+
+# OCR (optional — only needed for JPG/PNG processing)
+easyocr>=1.7.0
+
+# Semantic search (downloads model weights on first run, then fully offline)
+sentence-transformers>=2.7.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Optional UI (does not affect CLI functionality)
+streamlit>=1.35.0
